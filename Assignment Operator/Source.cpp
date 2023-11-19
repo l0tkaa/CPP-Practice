@@ -8,7 +8,7 @@ int main() {
 	int num2(20);
 
 
-	num1 = 100;
+	num1 = 100; // this can be equal to complicated math formula, etc. 
 
 
 	cout << "num1 is " << num1 << endl;
