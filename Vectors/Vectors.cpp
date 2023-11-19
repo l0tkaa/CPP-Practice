@@ -61,6 +61,31 @@ int main() {
 
 	cout << "\n Test scores are now:" << endl;
 
+	cout << test_scores.at(0) << endl;
+	cout << test_scores.at(1) << endl;	
+	cout << test_scores.at(2) << endl;
+	cout << test_scores.at(3) << endl;
+	cout << test_scores.at(4) << endl;
+
+	cout << "\nThere are now" << test_scores.size() << "scores in the vector" << endl;
+
+
+// Example of a 2D-vector
+
+	vector < vector<int>> movie_ratings
+	{
+		// vertically: 1st movie, 2nd, 3rd, 4th
+		{1,2,3, 4}, // horizontally 1st, 2nd, 3rd, 4th reviewer
+		{1,2,4,4},
+		{1,3,4,5}
+
+	};
+
+	cout << "\n Here are the movie ratings for reviewer #1 using array syntax: " << endl;
+	cout << movie_ratings[0][0] << endl;
+	cout << movie_ratings[0][1] << endl;
+	cout << movie_ratings[0][2] << endl;
+	cout << movie_ratings[0][3] << endl;
 
 
 
