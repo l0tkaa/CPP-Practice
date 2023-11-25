@@ -87,11 +87,11 @@ int main() {
 
 	vector < vector<int>> movie_ratings
 	{
-		// vertically: 1st movie, 2nd, 3rd, 4th
-		{1,2,3, 4}, // horizontally 1st, 2nd, 3rd, 4th reviewer
+		// vertically: movie ratings 1st, 2nd, 3rd, 4th
+		{1,2,3,4}, // horizontally 1st, 2nd, 3rd, 4th reviewer
 		{1,2,4,4},
 		{1,3,4,5}
-
+		 
 	};
 
 	cout << "\n Here are the movie ratings for reviewer #1 using array syntax: " << endl;
